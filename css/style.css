@@ -11,6 +11,7 @@
     -ms-transform: rotate(-90deg) translate(-40px, 3px);
     -o-transform: rotate(-90deg) translate(-40px 3px);
     -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    line-height: 100%;
     width:30px;
 }
 .rotate > div > span {
@@ -52,6 +53,7 @@
 td {
     height: 40px;
     width: 40px;
+    line-height: 100%;
 }
 
 th {
