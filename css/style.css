@@ -6,15 +6,15 @@
 }
 
 .rotate > div {
-    -webkit-transform: rotate(-90deg) translate(-40px);
-    -moz-transform: rotate(-90deg) translate(-40px);
-    -ms-transform: rotate(-90deg) translate(-40px);
-    -o-transform: rotate(-90deg) translate(-40px);
+    -webkit-transform: rotate(-90deg) translate(-40px, 3px);
+    -moz-transform: rotate(-90deg) translate(-40px, 3px);
+    -ms-transform: rotate(-90deg) translate(-40px, 3px);
+    -o-transform: rotate(-90deg) translate(-40px 3px);
     -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     width:30px;
 }
 .rotate > div > span {
-    padding: 5px 10px;
+    padding: 0px 0px;
 }
 
 .same {
@@ -61,6 +61,10 @@ th {
 #legende {
     width: 220px;
     position: fixed;
+}
+
+.minified {
+    font-size: x-small;
 }
 
 .footer {
