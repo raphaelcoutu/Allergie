@@ -1,0 +1,104 @@
+.rotate {
+    /* Something you can count on */
+    height: 120px;
+    white-space: nowrap;
+    border:0px;
+}
+
+.rotate > div {
+    -webkit-transform:
+        /* Magic Numbers */
+    translate(3px, 42px)
+        /* 45 is really 360 - 45 */
+    rotate(270deg);
+
+    -ms-transform:
+    /* Magic Numbers */
+    translate(3px, 42px)
+        /* 45 is really 360 - 45 */
+    rotate(270deg);transform:
+        /* Magic Numbers */
+    translate(3px, 42px)
+        /* 45 is really 360 - 45 */
+    rotate(270deg);
+
+    width: 30px;
+
+    /* IE9+ */
+    -ms-transform: none;
+    -ms-transform-origin: none;
+    /* IE8+ */
+    -ms-writing-mode: tb-rl;
+    /* IE7 and below */
+    *writing-mode: tb-rl;
+
+}
+.rotate > div > span {
+    padding: 5px 10px;
+}
+
+.same {
+    background-color: #555555;
+    border-color: #d6e9c6;
+}
+
+.incertain {
+    background-color: blue;
+    border-color: #080808;
+}
+
+.danger {
+    background-color: red;
+}
+
+.warning {
+    background-color: #ffff00;
+}
+
+.safe {
+   background-color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.click {
+    cursor: pointer;
+    background-image: url("../img/info.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+td {
+    height: 40px;
+    width: 40px;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+#legende {
+    width: 220px;
+    position: fixed;
+}
+
+.footer {
+    font-size: x-small;
+}
+
+.panel-body dd{
+    font-size: small;
+}
+
+.header {
+    background: url("../img/logoCSSSNL.png") no-repeat;
+    width:768px;
+    height:100px;
+    margin-top: 20px;
+}
+
+.header-text {
+    margin-left:350px;
+    padding-top: 20px;
+}
