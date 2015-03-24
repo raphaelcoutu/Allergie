@@ -10,9 +10,17 @@
     -moz-transform: rotate(-90deg) translate(-40px, 3px);
     -ms-transform: rotate(-90deg) translate(-40px, 3px);
     -o-transform: rotate(-90deg) translate(-40px 3px);
-    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -ms-filter: progid:DXImageTransform.Microsoft.Matrix(M11=0, M12=1, M21=-1, M22=0, SizingMethod = "auto expand");
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0, M12=1, M21=-1, M22=0, SizingMethod = "auto expand");
     line-height: 100%;
     width:30px;
+
+    /*IE hacks*/
+    font-weight: normal\9; /* \9 is an hack for IE8 and below */
+    letter-spacing: 1px\9; /* because is so bold, need to give letters some space to breath */
+    width: 150px\9;
+    height: 150px\9;
+    margin-right: -130px\9;
 }
 .rotate > div > span {
     padding: 0px 0px;
