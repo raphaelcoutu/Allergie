@@ -19,13 +19,12 @@
 </head>
 <body>
 <div class="container-fluid">
-<div class="col-lg-12">
+
+<div class="row">
+<div class="col-lg-10 col-lg-offset-1">
 <div class="header">
     <h3 class="header-text">Allergies croisées entre &beta;-lactamines</h3>
 </div>
-
-<div class="col-lg-9">
-
 <table class="table-bordered table-responsive" id="mainTable">
 <thead>
 <tr>
@@ -39,8 +38,7 @@
 <tr>
     <th colspan="3" class="center">1re</th>
     <th colspan="3" class="center">2e</th>
-    <th colspan="3" class="center">3e</th>
-    <th class="center">4e</th>
+    <th colspan="4" class="center">3e</th>
 
 </tr>
 <tr>
@@ -118,12 +116,12 @@
     <td class="incertain"></td>
     <td class="incertain"></td>
     <td class="incertain"></td>
-    <td class="danger"></td>
-    <td class="danger click" data-toggle="modal" data-target="#cephalo-r1-2"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="danger"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -141,12 +139,12 @@
     <td class="incertain"></td>
     <td class="incertain"></td>
     <td class="incertain"></td>
-    <td class="danger click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
-    <td class="danger"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="danger click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -166,7 +164,7 @@
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="danger"></td>
+    <td class="warning click" data-toggle="modal" data-target="#r1-pen-cefoxitine"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -201,10 +199,10 @@
     <td>Pipéracilline<br/>
         <span class="minified">(Pipracil&trade;,Tazocin&trade;)</span>
     </td>
-    <td class="incertain"></td>
-    <td class="incertain"></td>
-    <td class="incertain"></td>
-    <td class="incertain"></td>
+    <td class="danger click" data-toggle="modal" data-target="#peni"></td>
+    <td class="danger click" data-toggle="modal" data-target="#peni"></td>
+    <td class="danger click" data-toggle="modal" data-target="#peni"></td>
+    <td class="danger click" data-toggle="modal" data-target="#peni"></td>
     <td class="same"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -226,8 +224,8 @@
     <td>Céfadroxil<br/>
         <span class="minified">(Duricef &trade;)</span>
     </td>
-    <td class="warning"></td>
-    <td class="incertain click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -249,8 +247,8 @@
     <td>Céphalexine<br/>
         <span class="minified">(Keflex &trade;)</span>
     </td>
-    <td class="incertain click" data-toggle="modal" data-target="#cephalo-r1-2"></td>
-    <td class="warning"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -259,7 +257,7 @@
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="danger"></td>
+    <td class="danger click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
@@ -305,7 +303,7 @@
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="same"></td>
-    <td class="warning"></td>
+    <td class="danger click" data-toggle="modal" data-target="#cephalo-r2-3"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="warning click" data-toggle="modal" data-target="#cephalo-r1-2-sim"></td>
@@ -321,19 +319,19 @@
     </td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="danger"></td>
+    <td class="warning click" data-toggle="modal" data-target="#r1-pen-cefoxitine"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="warning"></td>
+    <td class="danger click" data-toggle="modal" data-target="#cephalo-r2-3"></td>
     <td class="same"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="safe"></td>
-    <td class="safe"></td>
-    <td>??</td>
-    <td class="safe"></td>
-    <td class="safe"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
@@ -342,27 +340,27 @@
     <td>Cefprozil<br/>
         <span class="minified">(Cefzil &trade;)</span>
     </td>
-    <td class="warning"></td>
-    <td class="incertain click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
+    <td class="challenge click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="danger click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
-    <td class="danger"></td>
+    <td class="danger click" data-toggle="modal" data-target="#cephalo-r1-1"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td>??</td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="same"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="safe"></td>
-    <td class="safe"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
 </tr>
 <tr>
-    <td rowspan="3" class="center">3e</td>
+    <td rowspan="4" class="center">3e</td>
     <td>Ceftriaxone<br/>
         <span class="minified">(Rocéphin &trade;)</span>
     </td>
@@ -421,18 +419,17 @@
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="safe"></td>
-    <td class="safe"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="warning click" data-toggle="modal" data-target="#cephalo-r1-3-sim"></td>
     <td class="warning click" data-toggle="modal" data-target="#cephalo-r1-4-sim"></td>
     <td class="same"></td>
-    <td class="safe"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
 </tr>
 <tr>
-    <td class="center">4e</td>
     <td>Cefixime<br/>
         <span class="minified">(Suprax &trade;)</span>
     </td>
@@ -445,11 +442,11 @@
     <td class="safe"></td>
     <td class="safe"></td>
     <td class="safe"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="safe"></td>
     <td class="safe"></td>
-    <td class="safe"></td>
-    <td class="safe"></td>
-    <td class="safe"></td>
+    <td class="safe click" data-toggle="modal" data-target="#r1-diss"></td>
     <td class="same"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
     <td class="safe click" data-toggle="modal" data-target="#carba-peni-cephalo"></td>
@@ -528,42 +525,29 @@
 </tbody>
 </table>
 </div>
-<div class="col-xs-3">
-        <div class="panel panel-default" id="legende">
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
             <div class="panel-heading">Légende</div>
             <div class="panel-body">
                 <dl>
                     <dt class="alert-danger">Rouge</dt>
                     <dd class="alert-danger">Administration du médicament est <strong>contre-indiquée</strong>. Risque d'allergie croisée documenté. Une consultation en allergologie est requise.</dd>
+                    <dt class="alert-challenge">Orange</dt>
+                    <dd class="alert-challenge">Risque élevé d'allergie croisée à administrer ce médicament. La <a href="#" data-toggle="modal" data-target="#gct">dose test croissante</a> est <strong>requise.</strong></dd>
                     <dt class="alert-warning">Jaune</dt>
-                    <dd class="alert-warning">Danger potentiel d'administrer ce médicament. Quelques rapports de cas disponibles discutant de la réaction. Le <a href="#" data-toggle="modal" data-target="#gct">test de dose progressive</a> est suggéré.</dd>
+                    <dd class="alert-warning">Risque potentiel d'administrer ce médicament. Quelques rapports de cas disponibles discutant de la réaction. La <a href="#" data-toggle="modal" data-target="#gct">dose test croissante</a> est <em>suggéré</em>.</dd>
                     <dt class="alert-success">Vert</dt>
-                    <dd class="alert-success">L'administration du médicament est sécuritaire. Aucune allergie croisée n'est documentée avec cette &beta;-lactamine.</dd>
+                    <dd class="alert-success">L'administration du médicament est sécuritaire. Le risque d'allergie croisée n'est pas supérieur au risque de base.</dd>
                 </dl>
             </div>
-            </div>
-        </div>
-</div>
-
-<div class="hidden-lg">
-    <div class="panel panel-default">
-        <div class="panel-heading">Légende</div>
-        <div class="panel-body">
-            <dl>
-                <dt class="alert-danger">Rouge</dt>
-                <dd class="alert-danger">Administration du médicament est <strong>contre-indiquée</strong>. Risque d'allergie croisée documenté. Une consultation en allergologie est requise.</dd>
-                <dt class="alert-warning">Jaune</dt>
-                <dd class="alert-warning">Danger potentiel d'administrer ce médicament. Quelques rapports de cas disponibles discutant de la réaction. Le <a href="#" data-toggle="modal" data-target="#gct">test de dose progressive</a> est suggéré.</dd>
-                <dt class="alert-success">Vert</dt>
-                <dd class="alert-success">L'administration du médicament est sécuritaire. Aucune allergie croisée n'est documentée avec cette &beta;-lactamine.</dd>
-            </dl>
         </div>
     </div>
 </div>
 
-
 </div>
-
 
 
 <!--modal-->
@@ -577,13 +561,16 @@
             <div class="modal-body">
                 Les antibiotiques suivant ont une chaîne latérale R1 identique ! Risque d'allergie très élevé. <br/>
                 <ul>
+                    <li>Ampicilline</li>
                     <li>Amoxicilline</li>
+                    <li>Cephalexine</li>
                     <li>Cefadroxil</li>
                     <li>Cefprozil</li>
                 </ul>
                 Références:
                 <ul>
                     <li>Dickson SD, Salazar KC. Diagnosis and management of immediate hypersensitivity reactions to cephalosporins. Clin Rev Allergy Immunol. 2013 Aug;45(1):131-42.</li>
+                    <li>Pichichero ME. A review of evidence supporting the American Academy of Pediatrics recommendation for prescribing cephalosporin antibiotics for penicillin-allergic patients. Pediatrics. 2005 Apr;115(4):1048-57.</li>
                 </ul>
             </div>
             <div class="modal-footer">
@@ -594,31 +581,6 @@
     </div>
 </div>
 
-<div class="modal fade" id="cephalo-r1-2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Châine latérale R1 identique</h4>
-            </div>
-            <div class="modal-body">
-                Les antibiotiques suivant ont une chaîne latérale R1 identique ! Risque d'allergie très élevé. <br/>
-                <ul>
-                    <li>Ampicilline</li>
-                    <li>Cephalexine</li>
-                </ul>
-                Références:
-                <ul>
-                    <li>Dickson SD, Salazar KC. Diagnosis and management of immediate hypersensitivity reactions to cephalosporins. Clin Rev Allergy Immunol. 2013 Aug;45(1):131-42.</li>
-                </ul>
-            </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="modal fade" id="cephalo-r1-3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -750,6 +712,32 @@
     </div>
 </div>
 
+<div class="modal fade" id="cephalo-r2-3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Châine latérale R2 identique</h4>
+            </div>
+            <div class="modal-body">
+                Les antibiotiques suivant ont une chaîne latérale R2 identique ! Risque d'allergie très élevé. <br/>
+                <ul>
+                    <li>Cefuroxime</li>
+                    <li>Cefoxitine</li>
+                </ul>
+                Références:
+                <ul>
+                    <li>Dickson SD, Salazar KC. Diagnosis and management of immediate hypersensitivity reactions to cephalosporins. Clin Rev Allergy Immunol. 2013 Aug;45(1):131-42.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="modal fade" id="peni" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -810,18 +798,78 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Test de doses progressives (Graded-challenge test)</h4>
+                <h4 class="modal-title">Dose test croissante (Graded-challenge test)</h4>
             </div>
             <div class="modal-body">
                 <p>
-                    Lors d'un doûte d'allergie, il est suggéré d'éxécuter un test de doses progressives afin de limiter le danger d'une allergie qui pourrait survenir.
+                    Lors d'un doûte raisonneable de réaction allergique croisée, il est suggéré d'utiliser une dose test croissante afin de limiter le danger d'une allergie qui pourrait survenir.
                 </p>
-                <p>Procédure privilégié : </p>
+                <p>Procédure privilégiée : </p>
                 <ol>
                     <li>Administrer 1/100e de la dose, surveillance  durant 60 min. Si aucun symptôme allergique, nous pouvons passer à l'étape suivante.</li>
                     <li>Administrer 1/10e de la dose, surveillance durant 60 min. Si aucun symptôme allergique, nous pouvons passer à l'étape suivante.</li>
                     <li>Administrer la dose totale restante et surveillance accrue recommandée pour les 72h après le début du traitement.</li>
                 </ol>
+                Référence:
+                <ul>
+                    <li>Joint Task Force on Practice Parameters; American Academy of Allergy, Asthma and Immunology; American College of Allergy, Asthma and Immunology; Joint Council of Allergy, Asthma and Immunology. Drug allergy: an updated practice parameter. Ann Allergy Asthma Immunol 2010;105:259-73.</li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="r1-pen-cefoxitine" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Chaînes latérales R1 identiques</h4>
+            </div>
+            <div class="modal-body">
+                <p>Les chaînes latérales R1 des antibiotiques suivants sont similaires ! Réaction allergie probable.</p>
+                <ul>
+                    <li>Pénicilline G</li>
+                    <li>Cefoxitine</li>
+                </ul>
+                Référence:
+                <ul>
+                    <li>Pichichero ME. A review of evidence supporting the American Academy of Pediatrics recommendation for prescribing cephalosporin antibiotics for penicillin-allergic patients. Pediatrics. 2005 Apr;115(4):1048-57.</li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="r1-diss" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Chaînes latérales R1 dissimilaires</h4>
+            </div>
+            <div class="modal-body">
+                <p>Les chaînes latérales R1 des antibiotiques suivants sont dissimilaires. Réaction très peu probable.</p>
+                <ul>
+                    <li>Cefprozil</li>
+                    <li>Cefoxitine</li>
+                    <li>Ceftazidime</li>
+                    <li>Cefixime</li>
+                </ul>
+                Référence:
+                <ul>
+                    <li>Pichichero ME. Use of selected cephalosporins in penicillin-allergic patients: a paradigm shift. Diagn Microbiol Infect Dis. 2007 Mar;57(3 Suppl):13S-18S.</li>
+                </ul>
 
             </div>
             <div class="modal-footer">

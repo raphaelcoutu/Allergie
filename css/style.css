@@ -36,6 +36,16 @@
     background-color: #ffff00;
 }
 
+.challenge {
+    background-color: #ff7c0a;
+}
+
+.alert-challenge {
+    color:#8a6d3b;
+    background-color:#FFE4B2;
+    border-color:#faebcc
+}
+
 .safe {
    background-color: green;
 }
@@ -87,4 +97,7 @@ th {
 .header-text {
     margin-left:350px;
     padding-top: 20px;
+}
+table {
+    margin-bottom: 20px;
 }
