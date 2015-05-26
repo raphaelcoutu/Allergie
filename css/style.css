@@ -99,3 +99,11 @@ th {
 table {
     margin-bottom: 20px;
 }
+
+.challenge {
+    background-color: orange;
+}
+.alert-challenge {
+    background-color:#FFE4B2;
+    color:#99732d;
+}
